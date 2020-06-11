@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(5,1fr);
+    background-color: rgb(194, 194, 255);
+    height: 90vh;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    grid-row: 2;
+    grid-column: 1/ span end;
+    text-align: center;
+    font-size: 75px;
+    color: rgb(60, 60, 60);
+    
+    
+}
+.main-conatiner{
+    grid-row: 3;
+    grid-column: 1/ span end;
+    display: flex;
+    justify-content: center;
+}
+#url-Input{
+    height: 35px;
+    width: 370px;
+    font-size: 20px;
+}
+.covert-button{
+    height: 41px;
+    margin-left: 3px;
+    background-color: rgb(0, 0, 0) ;
+    color: white;
+}
+.contact-info{
+    grid-row: 5;
+    grid-column: 1/span end;
+    text-align: center;
+    font-size:18px;
+    font-weight: 500;
+}
